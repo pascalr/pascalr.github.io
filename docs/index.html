@@ -1,13 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pascalr projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pascalr projects</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .project {
+      margin: 2em;
+      width: 300px;
+      height: 430px;
+      max-width: 100%;
+      border: 3px solid #333;
+      padding-bottom: 1em;
+    }
+    .project img {
+      width: 100%;
+      height: 275px;
+      object-fit: cover;
+    }
+    .project-name {
+      font-size: 2em;
+      padding-bottom: 0.5em;
+      padding-top: 0.5em;
+    }
+    .project-description {
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+    h2 {
+      font-size: 2.5em;
+      margin-left: 1em;
+      margin-bottom: 0;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Hello, World!</h1>
+  <h2>Websites</h2>
+
+  <div class="projects">
+    <a href="https://pascalr.github.io/cv/">
+      <div class="project">
+        <img src="visage.png" alt="My face" style="max-width: calc(100% - 2em); padding-top: 0.5em;">
+        <div class="project-name">CV</div>
+        <div class="project-description">My personal curriculum vitae and my timeline.</div>
+      </div>
+    </a>
+  
+    <a href="https://www.hedacuisine.com/">
+      <div class="project">
+        <img src="pizza.jpeg" alt="Screenshot of HedaCuisine">
+        <div class="project-name">HedaCuisine</div>
+        <div class="project-description">A personal collection of Québec cuisine and personal classics.</div>
+      </div>
+    </a>
+
+    <a href="https://pascalr.github.io/guitar-chords/">
+      <div class="project">
+        <img src="guitar_background.jpg" alt="A guitar background">
+        <div class="project-name">Guitar Chords</div>
+        <div class="project-description">A collection of chords and lyrics for international and Québec songs.</div>
+      </div>
+    </a>
+
+    <a href="https://pascalr.github.io/voyage/">
+      <div class="project">
+        <img src="cambodia.jpg" alt="A picture of Angkor Wat">
+        <div class="project-name">Travel log</div>
+        <div class="project-description">Pictures from past travels and short descriptions.</div>
+      </div>
+    </a>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="projects">
+    <a href="https://pascalr.github.io/jome/">
+      <div class="project">
+        <img src="jome.jpg" alt="Jome placeholder before logo">
+        <div class="project-name">Jome</div>
+        <div class="project-description">A programming language designed to be unopiniated and very visual.</div>
+      </div>
+    </a>
+
+    <a href="https://pascalr.github.io/cv/fr/armoire/">
+      <div class="project">
+        <img src="armoire.jpg" alt="A picture of a cupboard I built">
+        <div class="project-name">Cupboard</div>
+        <div class="project-description">TODO</div>
+      </div>
+    </a>
+  </div>
+
+  <h2>Cemetery</h2>
+
+  <div class="projects">
+    <a href="https://pascalr.github.io/cv/fr/laser/">
+      <div class="project">
+        <img src="chuck_laser_03.jpg" alt="A picture of my chuck laser I tried to build">
+        <div class="project-name">Chuck laser</div>
+        <div class="project-description">Helps you align to the center when drilling. Did not work though...</div>
+      </div>
+    </a>
+    <a href="https://pascalr.github.io/cv/fr/pump/">
+      <div class="project">
+        <img src="mattress_pump_02.jpg" alt="A picture of my mattress pump I tried to build">
+        <div class="project-name">Mattress Pump</div>
+        <div class="project-description">A valve for a pump I built to keep my mattress from deflating over the night.</div>
+      </div>
+    </a>
+    <div class="project">
+      <img src="admin_website.jpg" alt="A screenshot of an admin website I built" style="border-bottom: 1px solid black;">
+      <div class="project-name">Admin website</div>
+      <div class="project-description">I website I built after learning about taxes, banking, suppliers, ...</div>
+    </div>
+    <a href="https://pascalr.github.io/cv/fr/pid/">
+      <div class="project">
+        <img src="pid.png" alt="A graph showing PID data">
+        <div class="project-name">PID Tool</div>
+        <div class="project-description">A tiny tool I built in order to learn how to configure a PID for Delta Controls CO BACnet objects.</div>
+      </div>
+    </a>
+  </div>
+
+  <h2>Nursery</h2>
+
+  <div class="projects">
+    <div class="project">
+      <img src="todo.jpg" alt="placeholder">
+      <div class="project-name">House on a hill</div>
+      <div class="project-description">TODO</div>
+    </div>
+
+    <div class="project">
+      <img src="todo.jpg" alt="placeholder">
+      <div class="project-name">Gatherer video game</div>
+      <div class="project-description">TODO</div>
+    </div>
+  </div>
 
 </body>
 </html>
